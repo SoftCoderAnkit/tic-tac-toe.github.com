@@ -62,3 +62,28 @@ main{
 .hide{
     display: none;
 }
+
+@media (max-width:413px){
+    .box{
+        width:14vh;
+        height: 14vh;
+        border: 1px solid red;
+        border-radius: 20%;
+        font-size: 8vh;
+        background-color: bisque;
+    }
+
+    
+}
+@media (max-width:325px){
+    .box{
+        width:11vh;
+        height: 11vh;
+        border: 1px solid red;
+        border-radius: 20%;
+        font-size: 8vh;
+        background-color: bisque;
+    }
+
+    
+}
